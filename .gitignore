@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+
+# Environment
+.env*
+!.env.example
+
+# Vercel
+.vercel/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug
+*.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Coverage
+coverage/
+.coverage
+
+# Turbo
+.turbo/
+
+# Sentry
+.sentryclirc
+
+# Supabase local
+.supabase/
+
+# Misc
+*.db
+*.db-journal
+.vercel
+.envrc
+
+# GJC runtime state
+.gjc/
+
+# KORIE-derived gold (research license — never commit)
+eval/gold/korie.jsonl

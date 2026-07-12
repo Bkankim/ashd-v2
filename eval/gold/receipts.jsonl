@@ -1,0 +1,10 @@
+{"id":"r1","raw_text":"홈플러스 강남점\n사업자 123-45-67890\n2026-03-15 14:23:01\n상품명: 신라면 멀티팩\n결제대상금액: 12,800원","expected":{"store":"홈플러스 강남점","purchase_date":"2026-03-15","amount":12800}}
+{"id":"r2","raw_text":"GS25 역삼점\n2026년 4월 2일\n바나나우유 1,400\n합 계 1,400원","expected":{"store":"GS25 역삼점","purchase_date":"2026-04-02","amount":1400}}
+{"id":"r3","raw_text":"스타벅스 코엑스점\n2026/05/20\n아메리카노 T\n결제금액 4,500원","expected":{"store":"스타벅스 코엑스점","purchase_date":"2026-05-20","amount":4500}}
+{"id":"r4","raw_text":"영수증\n26-06-19\n삼다수 2L\n2,000원","expected":{"store":null,"purchase_date":"2026-06-19","amount":2000}}
+{"id":"r5","raw_text":"김밥천국\n받으실금액 35,000\n2026.07.01\n포장 2개","expected":{"store":"김밥천국","purchase_date":"2026-07-01","amount":35000}}
+{"id":"r6","raw_text":"다이소 홍대점\n2026//08 09:15:30\n수세미 세트\n총액: 3,000원","expected":{"store":"다이소 홍대점","purchase_date":"2026-08-09","amount":3000}}
+{"id":"r7","raw_text":"이마트 성수점\n2026.09.10\n콜라 1,500원\n사이다 1,800원\n받을금액 3,300원","expected":{"store":"이마트 성수점","purchase_date":"2026-09-10","amount":3300}}
+{"id":"r8","raw_text":"상호: 올리브영 신촌점\n2026.10.05\n선크림 SPF50\n결제금액 18,000원","expected":{"store":"올리브영 신촌점","purchase_date":"2026-10-05","amount":18000}}
+{"id":"r9","raw_text":"롯데마트 잠실점\n20261103\n서울우유 1L\n합계 4,200원","expected":{"store":"롯데마트 잠실점","purchase_date":"2026-11-03","amount":4200}}
+{"id":"r10","raw_text":"CU 마포점\n2026-12-01\n삼각김밥 1500","expected":{"store":"CU 마포점","purchase_date":"2026-12-01","amount":1500}}
