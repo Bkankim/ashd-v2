@@ -1,0 +1,34 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "00:00"
+      timezone: "Asia/Seoul"
+    labels:
+      - "dependencies"
+      - "automerge"
+    open-pull-requests-limit: 5
+    groups:
+      # aws-sdk/smithy must bump together — partial bumps cause S3Client type
+      # declaration skew (getSignedUrl arg mismatch) and break every preview build
+      aws-sdk:
+        patterns:
+          - "@aws-sdk/*"
+          - "@smithy/*"
+      supabase:
+        patterns:
+          - "@supabase/*"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "00:00"
+      timezone: "Asia/Seoul"
+    labels:
+      - "dependencies"
+      - "automerge"
