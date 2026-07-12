@@ -37,7 +37,7 @@
     "zod": "^3.24.4"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.5",
+    "@eslint/eslintrc": "^3.3.6",
     "@tailwindcss/postcss": "^4.3.1",
     "@types/node": "^22.15.18",
     "@types/react": "^19.1.3",
