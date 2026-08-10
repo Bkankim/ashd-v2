@@ -190,7 +190,7 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong>열람/정정/삭제/처리 정지:</strong>{" "}
-              개인정보 보호책임자 이메일(chillbkan@gmail.com)로 요청하시면 10일
+              개인정보 보호책임자 이메일(bk@bkan.dev)로 요청하시면 10일
               이내에 처리합니다
             </li>
           </ul>
@@ -240,7 +240,7 @@ export default function PrivacyPage() {
           <ul className="list-none pl-0 space-y-1 text-sm">
             <li>성명: 김병관</li>
             <li>직위: 대표</li>
-            <li>이메일: chillbkan@gmail.com</li>
+            <li>이메일: bk@bkan.dev</li>
           </ul>
           <p className="text-sm mt-2">
             기타 개인정보 침해 관련 상담은 개인정보침해신고센터(118),

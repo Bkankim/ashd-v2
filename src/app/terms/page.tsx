@@ -149,7 +149,7 @@ export default function TermsPage() {
             제9조 (문의)
           </h2>
           <p className="text-sm">
-            서비스 관련 문의: chillbkan@gmail.com
+            서비스 관련 문의: bk@bkan.dev
           </p>
         </section>
       </div>
